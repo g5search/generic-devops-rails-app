@@ -1,0 +1,17 @@
+version: "3"
+services:
+  rails:
+    image: g5search/ruby-base:2.6-v1.0.4 
+    ports:
+      - "3000:3000"
+    links:
+      - postgres
+    environment:
+      - RAILS_ENV=development
+      - DATABASE_HOST=postgres
+      - DATABASE_PORT=5432
+    command: "sleep infinity"
+    volumes:
+      - .:/app
+  postgres:
+    image: postgres:11
