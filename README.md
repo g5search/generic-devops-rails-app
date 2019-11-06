@@ -1,24 +1,5 @@
-# README
+# Generic DevOps Testing Rails App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Rails app built by the DevOps team as a testbed.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Testing with our real applications can be a hassle. You need a database, you don't really know which endpoints are safe and which aren't, and you're not familiar with how they're supposed to look. This app is dead simple but will (over time) have a easy way for DevOps to test that normal Rails functionality is working.
