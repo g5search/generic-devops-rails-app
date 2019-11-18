@@ -1,3 +1,5 @@
 BaseImageTag: "2.6-v1.0.4"
 TestPostgresImageTag: "11"
 AdditionalPoolConnectionsCount: 1
+UseJemalloc: true
+TestOverride: "bundle exec rake test"
