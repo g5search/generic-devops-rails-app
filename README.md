@@ -16,6 +16,7 @@ docker exec -it generic-devops-rails-app_rails_1 bash
 To connect. At that point you probably want:
 
 ```
+cd /app
 bundle
 bundle exec rake db:setup
 bundle exec rails s -b 0.0.0.0
